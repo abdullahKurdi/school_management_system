@@ -36,8 +36,8 @@ class SidebarSeeder extends Seeder
             'appear'            =>  '1',
             'ordering'          =>  '1',
         ]);
-        $manageMain->parent_show = $manageMain->id;
-        $manageMain->save();
+        $manageDashboard->parent_show = $manageDashboard->id;
+        $manageDashboard->save();
 
 
 
